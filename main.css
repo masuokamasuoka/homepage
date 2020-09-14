@@ -137,7 +137,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     margin: 80px 200px 0 200px;
     border-radius: 9px;
 }
-.logo h1{
+.logo h1{ 
     font-size: 100px;
     text-align: center;
     margin: 0;
@@ -178,12 +178,51 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     text-align: center;
 }
 
-.SNS{
-    padding: 0.5em 1em;
-    margin: 1em 0;
-    font-weight: bold;
-    border: solid 3px #000000;
-    color: white;
-    font-size: 50px;
-    text-align: center;
+.sosyal {
+  margin: 50px auto;
+}
+.blog {
+  background-color: rgb(6, 209, 6);
+  box-shadow: 0 4px 0 green;
+  text-shadow: 0 -1px -1px rgb(12, 248, 4);
+  
+  display: inline;
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 14px 80px;
+}
+.blog:hover {
+  background-color: green;
+}
+.blog:active {
+  top: 2px;
+	box-shadow: 0 2px 0 green;
+}
+.instagram {
+  background-color: #3f729b;
+  box-shadow: 0 4px 0 #3f729f;
+  
+  display: inline;
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 14px 80px;
+}
+.instagram:active {
+  top: 2px;
+	box-shadow: 0 2px 0 #0078BD;
+}
+.instagram:hover {
+  background-color: #1397D8;
 }
