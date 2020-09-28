@@ -4,7 +4,7 @@ html, body {
     height: 100%;
 }
 body {
-    background-color: #7ec9c1;
+    background-color: rgba(249, 251, 252, 0.938);
     height: 100%;
     padding: 0;
     margin: 0;
@@ -128,32 +128,20 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 
 .logo{
-    padding: 0em 1em;
+    padding:20px;
     margin: 1em;
     color: #FFF;
-    background: #6eb7ff;
-    border-bottom: solid 3px #3f87ce;
-    box-shadow: 0 3px 100px rgba(0,0,0,0.25);
     margin: 80px 200px 0 200px;
-    border-radius: 9px;
-}
-.logo h1{ 
-    font-size: 100px;
+    border-radius: 18px;
     text-align: center;
-    margin: 0;
-    padding: 0;
 }
-.logo h2{
-    font-size: 50px;
-    text-align: center;
-    margin: 20px 20px 20px 20px;
-}
+
 .free-campaign{
     padding: 0.5em 1em;
     margin: 1em 0;
     font-weight: bold;
     border: solid 3px #000000;
-    color: white;
+    color: rgb(2, 2, 2);
     font-size: 20px;
     text-align: center;
 }
@@ -163,25 +151,27 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     margin: 1em 0;
     font-weight: bold;
     border: solid 3px #000000;
-    color: white;
+    color: rgb(3, 3, 3);
     font-size: 20px;
     text-align: center;
 }
 
 .profile{
-    padding: 0.5em 1em;
-    margin: 1em 0;
+    /*text-align: center;*/
     font-weight: bold;
-    border: solid 3px #000000;
-    color: white;
-    font-size: 20px;
-    text-align: center;
+    color: rgb(3, 3, 3);
+    font-size: 15px;
+    /*text-align: left;*/
+    padding: 0 7em;
+    line-height: 270%;
+    display: flex;
 }
 
 .sosyal {
   margin: 50px auto;
 }
-.blog {
+
+.sosyal > .blog {
   background-color: rgb(6, 209, 6);
   box-shadow: 0 4px 0 green;
   text-shadow: 0 -1px -1px rgb(12, 248, 4);
@@ -197,14 +187,16 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   border-radius: 5px;
   padding: 14px 80px;
 }
-.blog:hover {
+.sosyal > .blog:hover {
   background-color: green;
 }
-.blog:active {
+
+.sosyal > .blog:active {
   top: 2px;
-	box-shadow: 0 2px 0 green;
+ box-shadow: 0 2px 0 green;
 }
-.instagram {
+
+.sosyal > .instagram {
   background-color: #3f729b;
   box-shadow: 0 4px 0 #3f729f;
   
@@ -219,10 +211,10 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   border-radius: 5px;
   padding: 14px 80px;
 }
-.instagram:active {
+.sosyal > .instagram:active {
   top: 2px;
-	box-shadow: 0 2px 0 #0078BD;
+ box-shadow: 0 2px 0 #0078BD;
 }
-.instagram:hover {
+.sosyal > .instagram:hover {
   background-color: #1397D8;
 }
