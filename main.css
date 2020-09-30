@@ -153,6 +153,17 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     text-align: center;
 }
 
+.counseling-menu-logo{
+     text-align: center;
+}
+.counseling-menu-banner{
+    padding: 50px;
+    text-align: center;
+}
+.counseling-menu-Centence p{
+    text-align: center;
+    font-size: 30px;
+}
 .profile{
     /*text-align: center;*/
     font-weight: bold;
@@ -169,6 +180,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 .profile-logo{
     text-align: center;
+    padding-top: 20px;
 }
 
 .sosyal {
@@ -202,7 +214,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 .sosyal > .instagram {
   background-color: #3f729b;
-  box-shadow: 0 4px 0 #325b7c;
+  box-shadow: 0 4px 0 #3f729f;
   
   display: inline;
   position: relative;
