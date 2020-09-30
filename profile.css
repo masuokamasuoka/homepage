@@ -142,35 +142,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 
 
-.explanation{
-    padding: 0.5em 10em;
-    margin: 1em 0;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-}
-.explanation .banner1{
-    text-align: center;
-}
-
-.profile{
-    /*text-align: center;*/
-    font-weight: bold;
-    color: rgb(3, 3, 3);
-    font-size: 15px;
-    /*text-align: left;*/
-    /*padding: 0 3em;*/
-    line-height: 220%;
-    display: flex;
-}
-.profile .profile-Centence{
-    padding: 5em 5em;
-}
-
-.profile-logo{
-    text-align: center;
-}
-
 .sosyal {
   margin: 50px auto;
 }
