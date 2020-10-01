@@ -150,6 +150,9 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     text-align: center;
     line-height: 220%;
 }
+.explanation p{
+    text-align: left;
+}
 .explanation .banner1{
     text-align: center;
 }
