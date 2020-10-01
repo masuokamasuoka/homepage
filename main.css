@@ -163,12 +163,13 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
      text-align: center;
 }
 .counseling-menu-banner{
-    padding: 50px;
+    /*padding: 50px;*/
     text-align: center;
 }
 .counseling-menu-Centence p{
     text-align: center;
-    font-size: 30px;
+    font-size: 15px;
+    font-weight: bold;
 }
 .profile{
     padding: 0.5em 10em;
