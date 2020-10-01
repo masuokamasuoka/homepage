@@ -146,13 +146,20 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     padding: 0.5em 10em;
     margin: 1em 0;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     line-height: 220%;
 }
 .explanation p{
+<<<<<<< HEAD
     text-align: left;
 }
+=======
+    text-align:left;
+    padding: 0 15em;
+}
+
+>>>>>>> c8b90e4a17a6bffe49fba9e4307d35955ab87eb1
 .explanation .banner1{
     text-align: center;
 }
