@@ -133,12 +133,8 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 
 .logo{
-    padding:20px;
-    margin: 1em;
-    color: #FFF;
-    margin: 80px 200px 0 200px;
-    border-radius: 18px;
     text-align: center;
+    margin: 5em 0 10em 0;
 }
 
 
