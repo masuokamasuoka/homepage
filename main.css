@@ -148,6 +148,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     font-weight: bold;
     font-size: 20px;
     text-align: center;
+    line-height: 220%;
 }
 .explanation .banner1{
     text-align: center;
