@@ -8,7 +8,6 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
     font-family: 'Varela Round', sans-serif;
 }
 /*ここからがヘッダー*/
@@ -176,126 +175,15 @@ header figure img{
     height: 100%;
     object-fit: cover;
 }
-/*ここまでがヘッダー-->*/
 
-.concept{
-    padding: 0.5em 10em;
-    margin: 1em 0;
-    font-weight: bold;
-    font-size: 15px;
-    text-align: center;
-    line-height: 220%;
-}
-.concept-logo{
-    text-align: center;
-    padding-top: 70px;
-}
-
-.logo{
-    text-align: center;
-    margin: 0 0 5em 0;
-}
-
-.concept p{
-    text-align:left;
-    padding: 0 15em;
-    
-}
-
-.explanation{
-    padding: 0.5em 10em;
-    margin: 1em 0;
-    font-weight: bold;
-    font-size: 15px;
-    text-align: center;
-    line-height: 220%;
-    transition-duration: 0.5s;
-}
-
-.explanation .banner1 img{
-    top: 2px;
- 　　box-shadow: 0 2px 0 green;
- 　　cursor: pointer;
-}
-
-.explanation .banner1 img:hover{
-    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
-    transform: translateY(-10px);
-    transition-duration: 0.5s;
-  }
-
-.explanation p{
-    text-align:left;
-    padding: 0 15em;
-}
-
-.explanation .banner1{
-    text-align: center;
-    
-}
-
-
-
-.counseling-menu-logo{
-     text-align: center;
-}
-.counseling-menu-banner{
-    /*padding: 50px;*/
-    text-align: center;
-    transition-duration: 0.5s;
-}
-
-.counseling-menu-banner img{
-    top: 2px;
- 　　box-shadow: 0 2px 0 green;
- 　　cursor: pointer;
-
-    
-}
-
-.counseling-menu-banner img:hover{
-    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
-    transform: translateY(-10px);
-    transition-duration: 0.5s;
-
-    
-}
-
-.counseling-menu-Centence p{
-    text-align: center;
-    font-size: 15px;
-    font-weight: bold;
-}
+/*ここまでがヘッダー*/
 
 .profile{
+    font-size:120px;
     text-align: center;
-    padding: 0.5em 10em;
 }
 
-.profile img{
-    text-align: center;
-    width: 550px;
-    height: 400px;
-    padding: 50px;
-    object-fit: cover;
-
-     
-}
-.profile .profile-Centence p{
-    
-   
-    text-align: left;
-    line-height: 220%;
-    font-weight: bold;
-    padding: 0 15em;
-}
-
-.profile-logo{
-    text-align: center;
-    padding-top: 20px;
-}
-
-/*ここから下がフッター*/
+/*ここからがフッター*/
 footer{
     width:100%;
     background-color: white;
