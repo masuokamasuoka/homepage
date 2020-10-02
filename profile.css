@@ -135,52 +135,33 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     transform: rotate(-135deg);
     margin-top: -9px;
 }
-
-header{
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 600px;
-    text-shadow: 0 0 3px #808080;
-    z-index: 1;
-}
-
-header h1{
-    position: absolute;
-	z-index: 3;
-	top: 30%;
-	width: 100%;
-	margin: 0;
-	padding: 0 .5em;
-	color: rgb(255, 255, 255);
-    font-size: 5rem;
-	line-height: 1.4;
-	font-family: "Dosis", sans-serif;
-	letter-spacing: .1em;
-	transform: translateY(-50%);
-}
-
-header figure{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    z-index: 2;
-}
-
-header figure img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 /*ここまでがヘッダー*/
 
 .profile{
-    font-size:120px;
     text-align: center;
+    padding: 0.5em 10em;
+}
+
+.profile img{
+    text-align: center;
+    width: 550px;
+    height: 400px;
+    padding: 50px;
+    object-fit: cover;
+
+     
+}
+.profile .profile-Centence p{
+    font-size:20px;
+    text-align: left;
+    line-height: 220%;
+    font-weight: bold;
+    padding: 0 15em;
+}
+
+.profile-logo{
+    text-align: center;
+    padding-top: 20px;
 }
 
 /*ここからがフッター*/

@@ -142,7 +142,7 @@ header{
     position: relative;
     width: 100%;
     height: 600px;
-    text-shadow: 0 0 3px #808080;
+    text-shadow: 0 0 10px #4d4c4c;
     z-index: 1;
 }
 
@@ -153,7 +153,7 @@ header h1{
 	width: 100%;
 	margin: 0;
 	padding: 0 .5em;
-	color: rgb(255, 255, 255);
+	color: #ffffff;
     font-size: 5rem;
 	line-height: 1.4;
 	font-family: "Dosis", sans-serif;
@@ -178,6 +178,7 @@ header figure img{
 }
 /*ここまでがヘッダー-->*/
 
+/*コンセプト*/
 .concept{
     padding: 0.5em 10em;
     margin: 1em 0;
@@ -201,7 +202,10 @@ header figure img{
     padding: 0 15em;
     
 }
+/*コンセプト*/
 
+
+/*キャンペーン説明*/
 .explanation{
     padding: 0.5em 10em;
     margin: 1em 0;
@@ -230,12 +234,11 @@ header figure img{
 }
 
 .explanation .banner1{
-    text-align: center;
-    
+    text-align: center;    
 }
+/*キャンペーン説明*/
 
-
-
+/*カウンセリングメニュー*/
 .counseling-menu-logo{
      text-align: center;
 }
@@ -247,18 +250,14 @@ header figure img{
 
 .counseling-menu-banner img{
     top: 2px;
- 　　box-shadow: 0 2px 0 green;
- 　　cursor: pointer;
-
     
+    cursor: pointer; 
 }
 
 .counseling-menu-banner img:hover{
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
     transform: translateY(-10px);
-    transition-duration: 0.5s;
-
-    
+    transition-duration: 0.5s;    
 }
 
 .counseling-menu-Centence p{
@@ -266,34 +265,7 @@ header figure img{
     font-size: 15px;
     font-weight: bold;
 }
-
-.profile{
-    text-align: center;
-    padding: 0.5em 10em;
-}
-
-.profile img{
-    text-align: center;
-    width: 550px;
-    height: 400px;
-    padding: 50px;
-    object-fit: cover;
-
-     
-}
-.profile .profile-Centence p{
-    
-   
-    text-align: left;
-    line-height: 220%;
-    font-weight: bold;
-    padding: 0 15em;
-}
-
-.profile-logo{
-    text-align: center;
-    padding-top: 20px;
-}
+/*カウンセリングメニュー*/
 
 /*ここから下がフッター*/
 footer{
