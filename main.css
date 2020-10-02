@@ -180,11 +180,10 @@ header figure img{
 
 /*コンセプト*/
 .concept{
-    padding: 0.5em 10em;
-    margin: 1em 0;
+    /*padding: 0 15em;
+    margin: 1em 0;*/
     font-weight: bold;
-    font-size: 15px;
-    text-align: center;
+    /*text-align: center;*/
     line-height: 220%;
 }
 .concept-logo{
@@ -192,15 +191,22 @@ header figure img{
     padding-top: 70px;
 }
 
-.logo{
+.concept .photo{
     text-align: center;
-    margin: 0 0 5em 0;
 }
 
 .concept p{
-    text-align:left;
-    padding: 0 15em;
-    
+    width: 68%;
+    margin-left: auto;
+    margin-left: auto;
+    text-align: initial;
+    font-size: 15px;
+    line-height: 6em;
+}
+
+.concept span{
+    font-size:25px;
+    color:red;
 }
 /*コンセプト*/
 
@@ -218,8 +224,7 @@ header figure img{
 
 .explanation .banner1 img{
     top: 2px;
- 　　box-shadow: 0 2px 0 green;
- 　　cursor: pointer;
+    cursor: pointer;
 }
 
 .explanation .banner1 img:hover{
@@ -250,7 +255,6 @@ header figure img{
 
 .counseling-menu-banner img{
     top: 2px;
-    box-shadow: 0 2px 0 green;
     cursor: pointer; 
 }
 
