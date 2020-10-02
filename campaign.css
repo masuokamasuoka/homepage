@@ -146,8 +146,27 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     margin: 80px 200px 0 200px;
     border-radius: 18px;
     text-align: center;
+
 }
 
+.campaign p{
+    font-size: 15px;
+    line-height: 6em;
+    text-align: left;
+}
+.campaign .A{
+
+    font-size: 22px;
+}
+
+.campaign .B{
+    color: red;
+}
+
+.campaign .C{
+    color: red;
+    font-size: 26px;
+}
 
 /*ここから下がフッター*/
 footer{
