@@ -231,6 +231,7 @@ header figure img{
 
 .profile{
     text-align: center;
+    padding: 0.5em 10em;
 }
 
 .profile img{
@@ -243,8 +244,8 @@ header figure img{
      
 }
 .profile .profile-Centence p{
-    padding: 20px;
-    display: inline;
+    
+   
     text-align: left;
     line-height: 220%;
     font-weight: bold;
