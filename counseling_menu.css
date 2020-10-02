@@ -147,8 +147,8 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 .counseling p{
     width: 65%;
-    margin-left: auto;
-    margin-left: auto;
+    /*margin-left: auto;*/
+    margin-left: 30%;
     text-align: initial;
     /*text-align: left;*/
     font-size: 15px;

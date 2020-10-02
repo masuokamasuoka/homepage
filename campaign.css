@@ -140,19 +140,35 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 
 .campaign{
-    padding:20px;
+
+    padding: 5em 0;
+    margin: 0 auto;
+
+    /*padding:20px;
     margin: 1em;
     color: black;
-    margin: 80px 200px 0 200px;
     border-radius: 18px;
     text-align: center;
+    margin: 0 auto;*/
+    
 
 }
 
 .campaign p{
+
+    width: 65%;
+    /*margin-left: auto;*/
+    margin-left: 20%;
+    text-align: initial;
+    /*text-align: left;*/
     font-size: 15px;
     line-height: 6em;
+
+    /*font-size: 15px;
+    line-height: 6em;
     text-align: left;
+    margin-left: auto;*/
+    
 }
 .campaign .A{
 
