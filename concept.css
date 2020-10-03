@@ -26,8 +26,9 @@ body {
     
 }
 .header .header-logo{
+    padding:25px;
     text-align:center;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     
 }
 

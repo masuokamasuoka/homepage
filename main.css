@@ -9,8 +9,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:'Varela Round', sans-serif;
-
+    font-family: 'Varela Round', sans-serif;
 }
 /*ここからがヘッダー*/
 .header {
@@ -29,8 +28,8 @@ body {
 }
 .header .header-logo{
     text-align:center;
-    margin: 0 auto;
-    
+    /*margin: 0 auto;*/
+
 }
 
 #sidebarMenu {
@@ -73,7 +72,6 @@ body {
 input[type="checkbox"]:checked ~ #sidebarMenu {
     transform: translateX(0);
 }
-
 input[type=checkbox] {
     transition: all 0.3s;
     box-sizing: border-box;
@@ -137,7 +135,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     transform: rotate(-135deg);
     margin-top: -9px;
 }
-
 header{
     overflow: hidden;
     position: relative;
@@ -146,7 +143,6 @@ header{
     text-shadow: 0 0 10px #4d4c4c;
     z-index: 1;
 }
-
 header h1{
     position: absolute;
 	z-index: 3;
@@ -161,7 +157,6 @@ header h1{
 	letter-spacing: .1em;
 	transform: translateY(-50%);
 }
-
 header figure{
     position: absolute;
     top: 0;
@@ -171,14 +166,12 @@ header figure{
     margin: 0;
     z-index: 2;
 }
-
 header figure img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 /*ここまでがヘッダー-->*/
-
 /*コンセプト*/
 .concept{
     /*padding: 0 15em;
@@ -191,26 +184,24 @@ header figure img{
     text-align: center;
     padding-top: 70px;
 }
-
 .concept .photo{
     text-align: center;
 }
-
 .concept p{
     width: 68%;
     margin-left: auto;
     margin-left: auto;
     text-align: initial;
     font-size: 15px;
-    line-height: 6em;
+
 }
 
 .concept span{
     font-size:25px;
-    color:red;
+    
+    color:pink;
 }
 /*コンセプト*/
-
 
 /*キャンペーン説明*/
 .explanation{
@@ -222,28 +213,23 @@ header figure img{
     line-height: 220%;
     transition-duration: 0.5s;
 }
-
 .explanation .banner1 img{
     top: 2px;
     cursor: pointer;
 }
-
 .explanation .banner1 img:hover{
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
     transform: translateY(-10px);
     transition-duration: 0.5s;
   }
-
 .explanation p{
     text-align:left;
     padding: 0 15em;
 }
-
 .explanation .banner1{
     text-align: center;    
 }
 /*キャンペーン説明*/
-
 /*カウンセリングメニュー*/
 .counseling-menu-logo{
      text-align: center;
@@ -256,7 +242,6 @@ header figure img{
 
 .counseling-menu-banner img{
     top: 2px;
-    
     cursor: pointer; 
 }
 
@@ -265,14 +250,12 @@ header figure img{
     transform: translateY(-10px);
     transition-duration: 0.5s;    
 }
-
 .counseling-menu-Centence p{
     text-align: center;
     font-size: 15px;
     font-weight: bold;
 }
 /*カウンセリングメニュー*/
-
 /*ここから下がフッター*/
 footer{
     width:100%;
@@ -280,11 +263,9 @@ footer{
     padding:30px 0;
     bottom:0;
 }
-
 .sosyal {
   margin: 50px auto;
 }
-
 .sosyal > .blog {
   background-color: rgb(6, 209, 6);
   box-shadow: 0 4px 0 green;
@@ -304,12 +285,10 @@ footer{
 .sosyal > .blog:hover {
   background-color: green;
 }
-
 .sosyal > .blog:active {
   top: 2px;
  box-shadow: 0 2px 0 green;
 }
-
 .sosyal > .instagram {
   background-color: #3f729b;
   box-shadow: 0 4px 0 #325b7c;
