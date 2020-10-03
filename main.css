@@ -28,7 +28,7 @@ body {
 }
 .header .header-logo{
     text-align:center;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     
 }
 
@@ -201,12 +201,12 @@ header figure img{
     margin-left: auto;
     text-align: initial;
     font-size: 15px;
-    line-height: 6em;
+    
 }
 
 .concept span{
     font-size:25px;
-    color:red;
+    color:pink;
 }
 /*コンセプト*/
 
@@ -255,10 +255,6 @@ header figure img{
 
 .counseling-menu-banner img{
     top: 2px;
-<<<<<<< HEAD
-=======
-    
->>>>>>> 1585709cc7ee25b1be26478fea29a09cd6aaa32f
     cursor: pointer; 
 }
 

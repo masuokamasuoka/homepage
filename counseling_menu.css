@@ -26,8 +26,9 @@ body {
     
 }
 .header .header-logo{
+    padding: 25px;
     text-align:center;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     
 }
 
@@ -144,6 +145,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 .counseling a{
     margin: 0 auto;
+    font-size: 25px;
 }
 .counseling p{
     width: 65%;
@@ -152,15 +154,28 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     text-align: initial;
     /*text-align: left;*/
     font-size: 15px;
-    line-height: 6em;
+    line-height: 5em;
 }
 
 .counseling span{
-    color:red;
+    color:rgb(248, 68, 98);
+}
+
+.counseling  span2{
+    color: red;
+}
+
+.counseling p2{
+    width:65%;
+    margin-left:30%;
+    text-align: initial;
+    font-size:15px;
+    line-height: 0;
 }
 
 .counseling p1{
     font-size: 25px;
+    columns: pink;
 }
 
 
