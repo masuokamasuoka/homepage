@@ -174,10 +174,7 @@ header figure img{
 /*ここまでがヘッダー-->*/
 /*コンセプト*/
 .concept{
-    /*padding: 0 15em;
-    margin: 1em 0;*/
     font-weight: bold;
-    /*text-align: center;*/
     line-height: 220%;
 }
 .concept-logo{
@@ -188,8 +185,8 @@ header figure img{
     text-align: center;
 }
 .concept p{
+    padding:0 25em 0 28em;
     width: 68%;
-    margin-left: auto;
     margin-left: auto;
     text-align: initial;
     font-size: 15px;
@@ -198,14 +195,12 @@ header figure img{
 
 .concept span{
     font-size:25px;
-    
     color:pink;
 }
 /*コンセプト*/
 
 /*キャンペーン説明*/
 .explanation{
-    padding: 0.5em 10em;
     margin: 1em 0;
     font-weight: bold;
     font-size: 15px;
@@ -224,7 +219,7 @@ header figure img{
   }
 .explanation p{
     text-align:left;
-    padding: 0 15em;
+    padding: 0 25em 0 27em;
 }
 .explanation .banner1{
     text-align: center;    
