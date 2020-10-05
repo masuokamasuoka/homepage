@@ -26,6 +26,11 @@ body {
     opacity: 0.7;
     
 }
+
+.header img{
+    height: auto;
+    
+}
 .header .header-logo{
     text-align:center;
     /*margin: 0 auto;*/
