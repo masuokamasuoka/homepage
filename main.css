@@ -28,8 +28,8 @@ body {
 }
 
 .header img{
-    height: auto;
-    
+    height: 40px;
+
 }
 .header .header-logo{
     text-align:center;
