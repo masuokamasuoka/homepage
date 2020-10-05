@@ -156,28 +156,12 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     font-size: 15px;
     line-height: 5em;
 }
-
-.counseling span{
-    color:rgb(255, 1, 196);
-}
-
-.counseling span2{
-    color: red;
-}
-
-.counseling p2{
-    width:65%;
-    margin-left:30%;
-    text-align: initial;
-    font-size:15px;
-    line-height: 0;
-}
-
-.counseling p1{
+.counseling .p1{
     font-size: 25px;
-    color: rgb(255,1,196);
 }
-
+.counseling .p2{
+    line-height: 20px;
+}
 
 /*ここからがフッター*/
 footer{

@@ -20,16 +20,15 @@ body {
     box-shadow: none;
     background-color: #ffff;
     position: fixed;
-    height: 60px!important;
+    height:60px!important;
     overflow: hidden;
     z-index: 10;
     opacity: 0.7;
-    
+    text-align: center;
 }
-.header .header-logo{
-    text-align:center;
-    /*margin: 0 auto;*/
-
+.header img{
+    width: 7%;
+    height:100%;
 }
 
 #sidebarMenu {
@@ -46,7 +45,7 @@ body {
 .sidebarMenuInner{
     margin:0;
     padding:0;
-    border-top: 1px solid rgba(255, 255, 255, 0.10);
+    border-top: 1px solid rgba(255, 255,255, 0.10);
 }
 .sidebarMenuInner li{
     list-style: none;
@@ -185,12 +184,11 @@ header figure img{
     text-align: center;
 }
 .concept p{
-    padding:0 25em 0 28em;
+    padding:5em 0;
     width: 68%;
-    margin-left: auto;
+    margin-left: 20%;
     text-align: initial;
     font-size: 15px;
-
 }
 
 .concept span{
