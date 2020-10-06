@@ -270,11 +270,13 @@ header figure img{
 .Counseling-photo{
     margin-bottom: 3em;
     text-align: center;
+    display:block;
 }
 .Counseling-photo img{
     width: 40%;
     height: 50%;
 }
+
 /*カウンセリングメニュー*/
 /*ここから下がフッター*/
 footer{
