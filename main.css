@@ -181,9 +181,6 @@ header figure img{
 .concept-logo{
     text-align: center;
 }
-.concept .photo{
-    text-align: center;
-}
 .concept p{
     padding:1em 0;
     width: 68%;
@@ -191,10 +188,17 @@ header figure img{
     text-align: initial;
     font-size: 15px;
 }
-
 .concept span{
     font-size:25px;
     color:pink;
+}
+.concept-photo{
+    margin-bottom: 3em;
+    text-align: center;
+}
+.concept-photo img{
+    width: 40%;
+    height: 50%;
 }
 /*コンセプト*/
 
@@ -266,7 +270,7 @@ header figure img{
     margin-bottom: 3em;
     text-align: center;
 }
-.counseling-photo img{
+.couseling-photo img{
     width: 40%;
     height: 50%;
 }
