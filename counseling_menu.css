@@ -24,8 +24,12 @@ body {
     overflow: hidden;
     z-index: 10;
     opacity: 0.7;
+<<<<<<< HEAD
+    text-align:center;
+=======
     text-align: center;
     
+>>>>>>> 27f3e04f0f2b6bce45db8e110061d3cf319b297f
 }
 .header img{
     width: 7%;

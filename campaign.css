@@ -24,12 +24,11 @@ body {
     overflow: hidden;
     z-index: 10;
     opacity: 0.7;
-    
+    text-align: center;
 }
-.header .header-logo{
-    text-align:center;
-    margin: 0 auto;
-    
+.header img{
+    width: 7%;
+    height: 100%;
 }
 
 #sidebarMenu {
