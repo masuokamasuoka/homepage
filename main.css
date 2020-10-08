@@ -21,14 +21,13 @@ body {
     box-shadow: none;
     background-color: #ffff;
     position: fixed;
-    height:60px!important;
     overflow: hidden;
     z-index: 10;
     opacity: 0.7;
     text-align: center;
 }
 .header img{
-    width: 7em;
+    width: 6em;
     height: 100%;
 }
 
@@ -243,6 +242,14 @@ header figure img{
 }
 /*キャンペーン説明*/
 /*カウンセリングメニュー*/
+.Counseling-photo{
+    margin-bottom: 3em;
+    text-align: center;
+}
+.Counseling-photo img{
+    width: 20%;
+    height: 50%;
+}
 .counseling-menu-logo{
      text-align: center;
 }
@@ -265,16 +272,6 @@ header figure img{
     text-align: center;
     font-size: 15px;
     font-weight: bold;
-}
-
-.Counseling-photo{
-    margin-bottom: 3em;
-    text-align: center;
-    display:block;
-}
-.Counseling-photo img{
-    width: 40%;
-    height: 50%;
 }
 
 /*カウンセリングメニュー*/
@@ -331,5 +328,5 @@ footer{
  box-shadow: 0 2px 0 #0078BD;
 }
 .sosyal > .instagram:hover {
-  background-color: #1397D8;
+  background-color: #325b7c;
 }
