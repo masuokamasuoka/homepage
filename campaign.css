@@ -44,7 +44,7 @@ body {
     margin-top: 60px;
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
-    background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
+    background: linear-gradient(180deg, #acb6e5 0%, #86fde8 100%);
     z-index: 7;
 }
 .sidebarMenuInner{
@@ -234,4 +234,9 @@ footer{
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
     transform: translateY(-10px);
     transition-duration: 0.5s;    
+}
+
+.privacy li{
+    text-align: center;
+    font-size: 10px;
 }
