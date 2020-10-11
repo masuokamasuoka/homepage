@@ -30,7 +30,6 @@ body {
 }
 
 .header img{
-    width: 7%;
     height: 100%;
 }
 
@@ -181,10 +180,19 @@ header figure img{
 }
 
 .test{
+    background-image: url(test.png);
+    width: 50px;
+    height: 50px;
     position: fixed; /*スクロールしても画像が固定*/
     bottom: 150px; 
     left: 100px;
     z-index: 1; 
+}
+
+@media scree and(max-width: 768px){
+    .test{
+        z-index: 1;
+    }
 }
 /*ここまでがヘッダー-->*/
 
@@ -197,9 +205,7 @@ header figure img{
 
 .campaign-logo{
     margin: 20% 0;
-    
     text-align: center;
-    
     transition-duration: 0.5s;
 }
 
@@ -236,6 +242,13 @@ header figure img{
     text-align: center;
 }
 
+/*キャンペーン説明 レスポンシブル*/
+@media screen and (max-width: 768px){
+   .campaign {
+        padding: 0;
+        margin: 0;
+    }
+}
 
 /*キャンペーン説明*/
 /*カウンセリングメニュー*/

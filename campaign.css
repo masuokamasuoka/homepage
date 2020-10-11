@@ -21,18 +21,15 @@ body {
     box-shadow: none;
     background-color: #ffff;
     position: fixed;
-
     overflow: hidden;
     z-index: 10;
     opacity: 0.7;
     text-align: center;
     margin: 0 auto;
-
 }
 
     
 .header img{
-    width: 7%;
     height: 100%;
 }
 
