@@ -149,11 +149,29 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     vertical-align: middle;
 }
 
-.profile-cent2 p{
-    font-size: 10px;
+.profile-cent2,
+.profile-img2{
+    display: inline-block;
+    vertical-align: middle;
 }
-.profile-img2,
-.profile-cent2{
+
+.profile-img3,
+.profile-cent3{
+    display: inline-block;
+    vertical-align: middle;
+}
+.profile-img4,
+.profile-cent4{
+    display: inline-block;
+    vertical-align: middle;
+}
+.profile-img5,
+.profile-cent5{
+    display: inline-block;
+    vertical-align: middle;
+}
+.profile-img6,
+.profile-cent6{
     display: inline-block;
     vertical-align: middle;
 }

@@ -151,7 +151,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     margin-left: 30%;
     text-align: initial;
     font-size: 15px;
-    line-height: 5em;
+    line-height: 6em;
 }
 .counseling .p1{
     font-size: 25px;
@@ -166,7 +166,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     }
    .counseling p{
        width: 85%;
-       margin-left: 10%;
+       margin-left: 0;
        font-size: 13px;
        line-height: 4.0em;
     }
