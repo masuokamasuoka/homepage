@@ -8,7 +8,6 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    
     font-family: 'Varela Round', sans-serif;
 }
 /*ここからがヘッダー*/
@@ -139,28 +138,24 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 /*ここまでがヘッダー*/
 
-
-.profile{
-    text-align: center;
-    margin-top: 217px;
-    margin-bottom: 217px;
-
-}
-
-
 .profile-logo{
     text-align: center;
-    padding-top: 120px;
+    margin-top: 80px;
 }
 
-.profile p{
-   margin: 170px;
-   font-size: 20px;
-
+.profile-img1,
+.profile-cent1{
+    display: inline-block;
+    vertical-align: middle;
 }
 
-.profile .section4  p{
-     line-height: 50px;
+.profile-cent2 p{
+    font-size: 10px;
+}
+.profile-img2,
+.profile-cent2{
+    display: inline-block;
+    vertical-align: middle;
 }
 /*ここからがフッター*/
 footer{
