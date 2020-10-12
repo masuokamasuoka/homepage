@@ -176,6 +176,21 @@ header figure img{
 }
 /*ここまでがヘッダー-->*/
 
+
+/*new*/
+.new{
+    text-align: center;
+}
+
+.new-logo{
+    text-align: center;
+     margin: 10% 0;
+}
+
+/*new*/
+
+
+
 /*キャンペーン説明*/
 
 .campaign{
@@ -290,7 +305,7 @@ header figure img{
 }
 /*カウンセリングメニュー*/
 
-/*コンセプト*/
+/*コンセプト
 .concept{
     font-weight: bold;
     line-height: 220%;
@@ -320,9 +335,9 @@ header figure img{
 }
 .concept-photo img{
    /* width: 40%;
-    height: 50%;*/
+    height: 50%;
 }
-/*コンセプト*/
+コンセプト*/
 
 
 
