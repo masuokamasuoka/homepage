@@ -8,7 +8,6 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    
     font-family: 'Varela Round', sans-serif;
 }
 /*ここからがヘッダー*/
@@ -139,28 +138,77 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 /*ここまでがヘッダー*/
 
-
-.profile{
-    text-align: center;
-    margin-top: 217px;
-    margin-bottom: 217px;
-
-}
-
-
 .profile-logo{
     text-align: center;
-    padding-top: 120px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
-.profile p{
-   margin: 170px;
-   font-size: 20px;
-
+.profile{
+   text-align: center;
+   line-height: 42px;
 }
 
-.profile .section4  p{
-     line-height: 50px;
+.profile-img1,
+.profile-cent1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.profile-cent1{
+    text-align: left;
+}
+
+/*プロフィールの囲み*/
+.profile-cent1{
+    margin:2em 0;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+.profile-cent1:before, .profile-cent1:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: black;
+}
+.profile-cent1:before {left: 10px;}
+.profile-cent1:after {right: 10px;}
+.profile-cent1 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+.profile-cent2,
+.profile-img2{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.profile-img3,
+.profile-cent3{
+    display: inline-block;
+    vertical-align: middle;
+}
+.profile-img4,
+.profile-cent4{
+    display: inline-block;
+    vertical-align: middle;
+}
+.profile-img5,
+.profile-cent5{
+    display: inline-block;
+    vertical-align: middle;
+}
+.profile-img6,
+.profile-cent6{
+    display: inline-block;
+    vertical-align: middle;
 }
 /*ここからがフッター*/
 footer{
@@ -168,6 +216,7 @@ footer{
     background-color: rgb(202, 199, 199);
     padding:30px 0;
     bottom:0;
+    margin-top: 40px;
 }
 
 .sosyal {
