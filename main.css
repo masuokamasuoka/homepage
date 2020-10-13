@@ -3,14 +3,22 @@ html, body {
     overflow-x: hidden;
     height: 100%;
 }
-body {
+
+body{
     background-color: rgb(222,238,251);
     height: 100%;
     padding: 0;
     margin: 0;
-    
     font-family: 'Varela Round', sans-serif;
 }
+
+@media screen and (max-width: 768px){
+    body{
+        width: 100%;
+       background-color: red;
+    }
+}
+
 /*ここからがヘッダー*/
 .header {
     display: block;
@@ -172,9 +180,17 @@ header figure img{
     height: 100%;
     object-fit: cover;
 }
+
+/*ヘッダーのメディアレスポンシブル*/
 @media screen and (max-width: 768px){
-   header h1{
-        font-size: 50px;
+    header h1{
+       padding: 20px,0;
+       top: 20%;   
+       font-size: 40px;
+    }
+    header figure img{
+        max-width: 100%;
+        max-height: 60%;
     }
 }
 
@@ -188,8 +204,9 @@ header figure img{
     z-index: 1; 
 }
 
-@media scree and(max-width: 768px){
+@media screen and (max-width: 768px){
     .test{
+        display: none;
         z-index: 1;
     }
 }
@@ -203,9 +220,19 @@ header figure img{
 
 .new-logo{
     text-align: center;
-     margin: 10% 0;
+    margin: auto 0;
 }
 
+/*newのレスポンシブル*/
+@media screen and (max-width: 768px){
+    .new{
+        max-width: 100%;
+    }
+    .new-log img{
+        text-align: center;
+        width: 50%;
+    }
+}
 /*new*/
 
 
@@ -293,10 +320,9 @@ header figure img{
 }
 
 .counseling-menu-Centence{
-
     text-align: center;
-
 }
+
 
 .counseling-menu-Centence p{
     padding: 1em 0;
@@ -304,13 +330,18 @@ header figure img{
     text-align: initial;
     margin-left: 25%;
     font-size: 15px;
-   
     font-weight: bold;
 }
 
 .counseling-photo{
     margin: 10% 0;
     text-align: center;
+}
+
+@media screen and (max-width: 768px){
+   .counseling-menu-Centence p{
+       font-size: 5px;
+    }
 }
 /*カウンセリングメニュー*/
 

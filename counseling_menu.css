@@ -162,12 +162,11 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 /*レスポンシブデザイン*/
 @media screen and (max-width: 768px){
     .counseling{
-        margin: 0;
+        margin: 0 1em;
     }
    .counseling p{
-       width: 85%;
        margin-left: 0;
-       font-size: 13px;
+       font-size: 15px;
        line-height: 4.0em;
     }
     .counseling .p1{

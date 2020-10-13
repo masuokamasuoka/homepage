@@ -141,6 +141,12 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 .profile-logo{
     text-align: center;
     margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.profile{
+   text-align: center;
+   line-height: 42px;
 }
 
 .profile-img1,
@@ -148,6 +154,35 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     display: inline-block;
     vertical-align: middle;
 }
+
+.profile-cent1{
+    text-align: left;
+}
+
+/*プロフィールの囲み*/
+.profile-cent1{
+    margin:2em 0;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+.profile-cent1:before, .profile-cent1:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: black;
+}
+.profile-cent1:before {left: 10px;}
+.profile-cent1:after {right: 10px;}
+.profile-cent1 p {
+    margin: 0; 
+    padding: 0;
+}
+
 
 .profile-cent2,
 .profile-img2{
@@ -181,6 +216,7 @@ footer{
     background-color: rgb(202, 199, 199);
     padding:30px 0;
     bottom:0;
+    margin-top: 40px;
 }
 
 .sosyal {
