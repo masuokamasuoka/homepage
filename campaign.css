@@ -140,6 +140,11 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 /*ここまでがヘッダー-->*/
 
 
+
+
+
+
+
 .campaign{
 
     padding: 5em 0;
@@ -168,6 +173,11 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     margin-left: auto;*/
     
 }
+
+
+
+
+
 .campaign .A{
 
     font-size: 22px;
@@ -184,7 +194,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 .boder{
     padding-left: 30px;
-    margin: 0 10% 0 10%;
+    margin: 0 30% 0 20%;
     color: #565656;
     background: #ffeaea;
     box-shadow: 0px 0px 0px 10px #ffeaea;
@@ -199,6 +209,25 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     line-height: 450%;
 }
 
+@media screen and (max-width: 768px)
+{
+
+.campaign{
+
+    padding: 20%;
+    background-color: #86fde8;
+
+    
+}
+.campaign p{
+    font-size: 100%;
+}
+
+
+
+
+
+}
 /*ここから下がフッター*/
 footer{
     width:100%;

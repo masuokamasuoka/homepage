@@ -163,10 +163,11 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 @media screen and (max-width: 768px){
     .counseling{
         margin: 0;
+        
     }
    .counseling p{
        width: 85%;
-       margin-left: ;
+       
        font-size: 13px;
        line-height: 4.0em;
     }
