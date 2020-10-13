@@ -210,6 +210,13 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     display: inline-block;
     vertical-align: middle;
 }
+
+/*レスポンシブル*/
+@media screen and (max-width: 768px){
+    .profile-img2,.profile-cent2,.profile-img4,.profile-cent4,.profile-img6,.profile-cent6{
+        display: block;
+    }
+}
 /*ここからがフッター*/
 footer{
     width:100%;
