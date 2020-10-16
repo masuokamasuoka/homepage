@@ -165,13 +165,16 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         margin: 0 1em;
     }
    .counseling p{
-       width: 95%;
+       width: 85%;
        margin-left: 0;
-       font-size: 15px;
+       font-size: 10px;
        line-height: 4.0em;
     }
     .counseling .p1{
         font-size: 15px;
+    }
+    .counseling a{
+        font-size: 20px;
     }
 }
 
