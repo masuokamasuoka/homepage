@@ -12,12 +12,6 @@ body{
     font-family: 'Varela Round', sans-serif;
 }
 
-@media screen and (max-width: 768px){
-    body{
-        width: 100%;
-       background-color: red;
-    }
-}
 
 /*ここからがヘッダー*/
 .header {
@@ -192,7 +186,22 @@ header figure img{
         max-width: 100%;
         max-height: 60%;
     }
+
+    header{
+        
+    }
+
+
+
+
+
+
+
+
+
+
 }
+
 
 .test{
     background-image: url(test.png);

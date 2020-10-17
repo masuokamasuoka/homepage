@@ -40,7 +40,7 @@ body {
     margin-top: 60px;
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
-    background: linear-gradient(180deg, #b3ffab 0%, #12fff7 100%);
+    background: linear-gradient(180deg, #a1c4fd 0%, #c2e9fb 100%);
     z-index: 7;
 }
 .sidebarMenuInner{
@@ -209,6 +209,13 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 .profile-cent6{
     display: inline-block;
     vertical-align: middle;
+}
+
+/*レスポンシブル*/
+@media screen and (max-width: 768px){
+    .profile-img2,.profile-cent2,.profile-img4,.profile-cent4,.profile-img6,.profile-cent6{
+        display: block;
+    }
 }
 /*ここからがフッター*/
 footer{

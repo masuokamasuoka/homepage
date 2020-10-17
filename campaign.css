@@ -41,7 +41,7 @@ body {
     margin-top: 60px;
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
-    background: linear-gradient(180deg, #acb6e5 0%, #86fde8 100%);
+    background: linear-gradient(180deg, #a1c4fd 0%, #c2e9fb 100%);
     z-index: 7;
 }
 .sidebarMenuInner{
@@ -214,15 +214,23 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 .campaign{
 
-    padding: 20%;
-    background-color: #86fde8;
-
+    margin: 0 1em;
     
 }
 .campaign p{
-    font-size: 100%;
+    width: 85%;
+       margin-left: 0;
+       font-size: 10px;
+       line-height: 4.0em;
 }
 
+.boder{
+    margin: 0 0 0 0;
+    padding-left: 0;
+}
+.boder p{
+    font-size: 10px;
+}
 
 
 
