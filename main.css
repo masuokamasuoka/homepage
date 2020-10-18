@@ -188,7 +188,7 @@ header figure img{
     }
 
     header{
-        
+
     }
 
 
@@ -230,6 +230,11 @@ header figure img{
 .new-logo{
     text-align: center;
     margin: auto 0;
+}
+
+iframe{
+    border:1px black solid;
+    max-width: 100%;
 }
 
 /*newのレスポンシブル*/

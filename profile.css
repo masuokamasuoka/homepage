@@ -149,12 +149,17 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
    line-height: 42px;
 }
 
-.profile-img1,
-.profile-cent1{
-    display: inline-block;
-    vertical-align: middle;
+/*横並び*/
+.profile-home-1,.profile-home-2,.profile-home-3,.profile-home-4,.profile-home-5,.profile-home-6{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
 
+.profile-img1{
+    padding-top: 50px;
+    padding-right: 10px;
+}
 .profile-cent1{
     text-align: left;
 }
@@ -184,39 +189,61 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 
 
+/*2要素目以降*/
 .profile-cent2,
 .profile-img2{
-    display: inline-block;
     vertical-align: middle;
 }
 
 .profile-img3,
 .profile-cent3{
-    display: inline-block;
     vertical-align: middle;
 }
+
 .profile-img4,
 .profile-cent4{
-    display: inline-block;
     vertical-align: middle;
 }
+
 .profile-img5,
 .profile-cent5{
-    display: inline-block;
     vertical-align: middle;
 }
 .profile-img6,
 .profile-cent6{
-    display: inline-block;
     vertical-align: middle;
 }
 
 /*レスポンシブル*/
 @media screen and (max-width: 768px){
-    .profile-img2,.profile-cent2,.profile-img4,.profile-cent4,.profile-img6,.profile-cent6{
-        display: block;
+    /*親要素*/
+    .profile-home-1,.profile-home-3,.profile-home-5{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .profile-home-2,.profile-home-4,.profile-home-6{
+        flex-direction: column-reverse;
+        margin: 10px;
+    }
+    /*子要素*/
+    /*子要素　文*/
+    .profile-cent1 p,.profile-cent3 p,.profile-cent5 p{
+        font-size: 12px;
+        margin: 10px;
+    }
+    .profile-cent2 p,.profile-cent4 p,.profile-cent6 p{
+        font-size: 12px;
+        margin: 10px;
+    }
+    /*子要素 写真*/
+    .profile-img1 img,.profile-img3 img,.profile-img5 img{
+        max-width: 100%;
+    }
+    .profile-img2 img,.profile-img4 img,.profile-img6 img{
+        max-width: 100%;
     }
 }
+
 /*ここからがフッター*/
 footer{
     width:100%;

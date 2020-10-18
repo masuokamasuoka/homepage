@@ -215,6 +215,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 .campaign{
 
     margin: 0 1em;
+    padding: 5em 0;
     
 }
 .campaign p{
