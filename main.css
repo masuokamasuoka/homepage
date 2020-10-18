@@ -15,7 +15,7 @@ body{
 @media screen and (max-width: 768px){
     body{
         width: 100%;
-       background-color: red;
+       background-color: rgb(222, 238, 251);
     }
 }
 
@@ -183,14 +183,18 @@ header figure img{
 
 /*ヘッダーのメディアレスポンシブル*/
 @media screen and (max-width: 768px){
+    header{
+        height: 70%;
+    }
     header h1{
-       padding: 20px,0;
+       padding-top: 100px;
        top: 20%;   
-       font-size: 40px;
+       font-size: 37px;
     }
     header figure img{
         max-width: 100%;
-        max-height: 60%;
+        width: 100%;
+        height: 60%;
     }
 }
 
@@ -220,17 +224,29 @@ header figure img{
 
 .new-logo{
     text-align: center;
-    margin: auto 0;
+    margin: 40px 0;
 }
 
+iframe{
+    max-width: 100%;
+    border: 1px black solid;
+}
 /*newのレスポンシブル*/
 @media screen and (max-width: 768px){
     .new{
         max-width: 100%;
     }
-    .new-log img{
+    .new-logo{
+        margin: 40px 0;
+    }
+    .new-logo img{
         text-align: center;
-        width: 50%;
+        width: 30%;
+    }
+    iframe{
+        margin: 10px 10px 10px 10px;
+        border: 1px black solid;
+        max-width: 100%;
     }
 }
 /*new*/
@@ -239,25 +255,22 @@ header figure img{
 
 /*キャンペーン説明*/
 
-.campaign{
-    padding: 0 20%;
-    margin:10% 0;
-}
-
 .campaign-logo{
-    margin: 20% 0;
+    margin: 100px 0;
     text-align: center;
     transition-duration: 0.5s;
 }
-
+.campaign-logo img {
+    width: 30%;
+}
 
 .campaign .banner1{
     text-align: center;    
-    margin: 10% 0;
+    margin: 40px 0;
 }
 
-.campaign .banner1 img{
-    top: 2px;
+.banner1 img{
+    width: 30%;
     cursor: pointer;
 }
 
@@ -267,16 +280,16 @@ header figure img{
     transition-duration: 0.5s;
   }
 
+.campaign{
+    margin: 40px 0;
+}
+
 .campaign p{
-    padding: 1em 0;
-    width: 68%;
-    margin-left: 20%;
-    text-align: initial;
+    text-align: center;
     font-size: 15px;
     line-height: 400%;
     font-weight: bold;
 }
-
 
 .campaign-photo{
     margin: 10% 0;
@@ -287,29 +300,51 @@ header figure img{
 @media screen and (max-width: 768px){
    .campaign {
         padding: 0;
+        margin: 10px 0;
+    }
+    .campaign-logo{
+        margin: 50px;
+        text-align: center;
+    }
+    .campaign-logo img{
+        max-width: 100%;
+        width: 100%;
+    }
+    .banner1 img{
+        width: 70%;
+    }
+    .campaign p{
+        margin: 10px 10px;
+        font-size: 15px;
+    }
+    .campaign-photo{
         margin: 0;
+        text-align: center;
+    }
+    .campaign-photo img{
+        width: 60%;
+        max-width: 100%;
     }
 }
-
 /*キャンペーン説明*/
+
 /*カウンセリングメニュー*/
-.counseling-menu{
-    padding: 0 20%;
-    margin:10% 0;
+.counseling-menu-logo{
+    margin-bottom: 100px 0;
+    text-align: center;
+}
+.counseling-menu-logo img{
+    width: 50%;
 }
 
-.counseling-menu-logo{
-     text-align: center;
-     margin: 20% 0;
-}
 .counseling-menu-banner{
     text-align: center;
     transition-duration: 0.5s;
-    margin: 10% 0;
+    margin: 100px 0;
 }
 
 .counseling-menu-banner img{
-    top: 2px;
+    width: 30%;
     cursor: pointer; 
 }
 
@@ -325,10 +360,6 @@ header figure img{
 
 
 .counseling-menu-Centence p{
-    padding: 1em 0;
-    width: 68%;
-    text-align: initial;
-    margin-left: 25%;
     font-size: 15px;
     font-weight: bold;
 }
@@ -339,45 +370,36 @@ header figure img{
 }
 
 @media screen and (max-width: 768px){
+    .counseling-menu{
+        margin: 20px;
+        padding: 0;
+    }
    .counseling-menu-Centence p{
-       font-size: 5px;
+       font-size: 15px;
+    }
+    .counseling-menu-logo{
+        text-align: center;
+    }
+    .counseling-menu-logo img{
+        width: 100%;
+    }
+
+    .counseling-menu-banner{
+        margin: 40px 0;
+    }
+    .counseling-menu-banner img{
+        width: 70%;
+    }
+    .counseling-photo{
+        margin: 0;
+        text-align: center;
+    }
+    .counseling-photo img{
+        width: 60%;
+        max-width: 100%;
     }
 }
 /*カウンセリングメニュー*/
-
-/*コンセプト
-.concept{
-    font-weight: bold;
-    line-height: 220%;
-    padding: 0 20%;
-    margin:10% 0;
-}
-.concept-logo{
-    text-align: center;
-    margin: 10% 0;
-}
-.concept p{
-    padding: 1em 0;
-    width: 68%;
-    margin-left: 30%;
-    text-align: initial;
-    font-size: 15px;
-    line-height: 400%;
-    font-weight: bold;
-}
-.concept span{
-    font-size:25px;
-    color:rgb(255,1,196);
-}
-.concept-photo{
-    margin: 10% 0;
-    text-align: center;
-}
-.concept-photo img{
-   /* width: 40%;
-    height: 50%;
-}
-コンセプト*/
 
 
 
