@@ -198,13 +198,18 @@ header figure img{
     }
 }
 
+.blog-test{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+
 .test{
-    background-image: url(test.png);
-    width: 50px;
-    height: 50px;
     position: fixed; /*スクロールしても画像が固定*/
-    bottom: 150px; 
+    bottom:100px;
     left: 100px;
+    width: 100px;
     z-index: 1; 
 }
 
@@ -314,7 +319,7 @@ iframe{
         width: 70%;
     }
     .campaign p{
-        margin: 10px 10px;
+        margin: 10px 30px;
         font-size: 15px;
     }
     .campaign-photo{
@@ -371,17 +376,18 @@ iframe{
 
 @media screen and (max-width: 768px){
     .counseling-menu{
-        margin: 20px;
+        margin: 10px 0;
         padding: 0;
     }
    .counseling-menu-Centence p{
+       margin: 0 30px;
        font-size: 15px;
     }
     .counseling-menu-logo{
         text-align: center;
     }
     .counseling-menu-logo img{
-        width: 100%;
+        width: 90%;
     }
 
     .counseling-menu-banner{
