@@ -189,35 +189,17 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     padding: 0;
 }
 
-
-/*2要素目以降*/
-.profile-cent2,
-.profile-img2{
-    vertical-align: middle;
+.profile-img3{
+   vertical-align: middle;
 }
 
-.profile-img3,
-.profile-cent3{
-    vertical-align: middle;
-}
-
-.profile-img4,
-.profile-cent4{
-    vertical-align: middle;
-}
-
-.profile-img5,
-.profile-cent5{
-    vertical-align: middle;
-}
-.profile-img6,
-.profile-cent6{
-    vertical-align: middle;
-}
 
 /*レスポンシブル*/
 @media screen and (max-width: 768px){
     /*親要素*/
+    .profile{
+        text-align: left;
+    }
     .profile-home-1,.profile-home-3,.profile-home-5{
         flex-direction: column;
         margin: 10px;
@@ -230,7 +212,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     /*子要素　文*/
     .profile-cent1 p,.profile-cent3 p,.profile-cent5 p{
         font-size: 12px;
-        margin: 10px;
+        margin: 8px;
     }
     .profile-cent2 p,.profile-cent4 p,.profile-cent6 p{
         font-size: 12px;
@@ -251,9 +233,7 @@ footer{
     background-color: rgb(202, 199, 199);
     padding:30px 0;
     bottom:0;
-    margin-top: 40px;
 }
-
 .sosyal {
   margin: 0 auto;
   text-align: center;
@@ -280,7 +260,22 @@ footer{
     transform: translateY(-10px);
     transition-duration: 0.5s;    
 }
+
 .privacy li{
     text-align: center;
     font-size: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .sosyal img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .sosyal {
+        margin: 0 auto;
+        text-align: center;
+        padding: 5px;
+      }
+
 }

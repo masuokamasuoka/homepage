@@ -220,7 +220,22 @@ footer{
     transform: translateY(-10px);
     transition-duration: 0.5s;    
 }
+
 .privacy li{
     text-align: center;
     font-size: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .sosyal img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .sosyal {
+        margin: 0 auto;
+        text-align: center;
+        padding: 5px;
+      }
+
 }
