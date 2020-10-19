@@ -159,6 +159,10 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 .counseling .p2{
     line-height: 20px;
 }
+
+.SE5{
+    display: none;
+}
 /*レスポンシブデザイン*/
 @media screen and (max-width: 768px){
     .counseling{
@@ -175,6 +179,10 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     }
     .counseling a{
         font-size: 20px;
+    }
+
+    .SE5{
+        display: inline;
     }
 }
 
