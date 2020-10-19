@@ -65,6 +65,7 @@ body {
 .sidebarMenuInner li a{
     color: #fff;
     text-transform: uppercase;
+    text-shadow: 0 0 3px #668AD8;
     font-weight: bold;
     cursor: pointer;
     text-decoration: none;

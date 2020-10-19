@@ -66,6 +66,7 @@ body {
 .sidebarMenuInner li a{
     color: #fff;
     text-transform: uppercase;
+    text-shadow: 0 0 3px #668AD8;
     font-weight: bold;
     cursor: pointer;
     text-decoration: none;
@@ -139,12 +140,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 /*ここまでがヘッダー-->*/
 
-
-
-
-
-
-
 .campaign{
 
     padding: 5em 0;
@@ -173,10 +168,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     margin-left: auto;*/
     
 }
-
-
-
-
 
 .campaign .A{
 
@@ -209,8 +200,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     line-height: 450%;
 }
 
-@media screen and (max-width: 768px)
-{
+@media screen and (max-width: 768px){
 
 .campaign{
 
@@ -232,8 +222,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 .boder p{
     font-size: 10px;
 }
-
-
 
 
 }
