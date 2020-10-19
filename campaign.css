@@ -218,6 +218,11 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     padding: 5em 0;
     
 }
+
+.campaign img{
+    width: 80%;
+}
+
 .campaign p{
     width: 85%;
        margin-left: 0;
@@ -232,6 +237,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 .boder p{
     font-size: 10px;
 }
+
 
 
 

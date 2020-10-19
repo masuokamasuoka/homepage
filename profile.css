@@ -278,9 +278,15 @@ footer{
     transition-duration: 0.5s;    
 }
 
+.privacy{
+    padding: 0;
+    margin: 0;
+}
+
 .privacy li{
     text-align: center;
     font-size: 10px;
+    
 }
 
 @media screen and (max-width: 768px){
