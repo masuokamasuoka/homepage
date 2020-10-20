@@ -190,9 +190,17 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 
 .profile-img3{
-   vertical-align: middle;
+   margin: 200px 40px 0 0;
 }
-
+.profile-img4{
+    margin: 200px 0 0 40px;
+}
+.profile-img5{
+    margin: 100px 40px 0 0;
+}
+.profile-img6{
+    margin: 50px 0 0 40px;
+}
 
 /*レスポンシブル*/
 @media screen and (max-width: 768px){
@@ -219,6 +227,12 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         margin: 10px;
     }
     /*子要素 写真*/
+    .profile-img1,.profile-img2,.profile-img3,.profile-img4,.profile-img5,.profile-img6{
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
     .profile-img1 img,.profile-img3 img,.profile-img5 img{
         max-width: 100%;
     }

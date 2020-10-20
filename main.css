@@ -329,6 +329,7 @@ br .mazuha{
     .campaign p{
         margin: 10px 30px;
         font-size: 15px;
+        text-align: left;
         
     }
     .campaign-photo{
