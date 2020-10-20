@@ -3,32 +3,40 @@ html, body {
     overflow-x: hidden;
     height: 100%;
 }
-body {
-    background-color: rgba(249, 251, 252, 0.938);
+
+body{
+    background-color: rgb(222,238,251);
     height: 100%;
     padding: 0;
     margin: 0;
     font-family: 'Varela Round', sans-serif;
 }
+
+@media screen and (max-width: 768px){
+    body{
+       width: 100%;
+       background-color: rgb(222, 238, 251);
+    }
+}
+
 /*ここからがヘッダー*/
 .header {
     display: block;
-    margin: 0 auto;
     width: 100%;
     max-width: 100%;
+    height: 60px!important;
     box-shadow: none;
     background-color: #ffff;
     position: fixed;
-    height: 60px!important;
     overflow: hidden;
     z-index: 10;
     opacity: 0.7;
-    
-}
-.header .header-logo{
-    text-align:center;
+    text-align: center;
     margin: 0 auto;
-    
+}
+
+.header img{
+    height: 100%;
 }
 
 #sidebarMenu {
@@ -39,7 +47,7 @@ body {
     margin-top: 60px;
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
-    background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
+    background: linear-gradient(180deg, #a1c4fd 0%, #c2e9fb 100%);
     z-index: 7;
 }
 .sidebarMenuInner{
@@ -63,6 +71,7 @@ body {
 }
 .sidebarMenuInner li a{
     color: #fff;
+    text-shadow: 0 0 3px #668AD8;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
@@ -71,7 +80,6 @@ body {
 input[type="checkbox"]:checked ~ #sidebarMenu {
     transform: translateX(0);
 }
-
 input[type=checkbox] {
     transition: all 0.3s;
     box-sizing: border-box;
@@ -135,16 +143,14 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     transform: rotate(-135deg);
     margin-top: -9px;
 }
-
 header{
     overflow: hidden;
     position: relative;
     width: 100%;
-    height: 600px;
-    text-shadow: 0 0 3px #808080;
-    z-index: 1;
+    height: 100%;
+    text-shadow: 0 0 10px #4d4c4c;
+    z-index: 3;
 }
-
 header h1{
     position: absolute;
 	z-index: 3;
@@ -152,14 +158,13 @@ header h1{
 	width: 100%;
 	margin: 0;
 	padding: 0 .5em;
-	color: rgb(255, 255, 255);
+	color: #ffffff;
     font-size: 5rem;
 	line-height: 1.4;
 	font-family: "Dosis", sans-serif;
 	letter-spacing: .1em;
 	transform: translateY(-50%);
 }
-
 header figure{
     position: absolute;
     top: 0;
@@ -169,82 +174,82 @@ header figure{
     margin: 0;
     z-index: 2;
 }
-
 header figure img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-/*ここまでがヘッダー*/
-
-.logo{
-    padding:20px;
-    margin: 1em;
-    color: #FFF;
-    margin: 80px 200px 0 200px;
-    border-radius: 18px;
-    text-align: center;
+/*ヘッダーのメディアレスポンシブル*/
+@media screen and (max-width: 768px){
+    header{
+        height: 500px;
+    }
+    header h1{
+       padding-top: 100px;
+       top: 20%;   
+       font-size: 37px;
+    }
+    header figure img{
+        max-width: 100%;
+        width: 100%;
+        height: 500px;
+    }
 }
 
+/*ここまでがヘッダー*/
 
+
+
+/*ここから下がフッター*/
 footer{
     width:100%;
-    background-color: white;
+    background-color: rgb(202, 199, 199);
     padding:30px 0;
     bottom:0;
 }
-
-
-/*ここからがフッター*/
 .sosyal {
-  margin: 50px auto;
-}
-
-.sosyal > .blog {
-  background-color: rgb(6, 209, 6);
-  box-shadow: 0 4px 0 green;
-  text-shadow: 0 -1px -1px rgb(12, 248, 4);
-  
-  display: inline;
-  position: relative;
-  font-family: Arial;
-  font-size: 14px;
-  font-weight: bold;
+  margin: 0 auto;
   text-align: center;
-  text-decoration: none;
-  color: white;
-  border-radius: 5px;
-  padding: 14px 80px;
-}
-.sosyal > .blog:hover {
-  background-color: green;
+  padding: 50px;
 }
 
-.sosyal > .blog:active {
-  top: 2px;
- box-shadow: 0 2px 0 green;
+.sosyal img{
+    width: 50px;
+    height: 50px;
 }
 
-.sosyal > .instagram {
-  background-color: #3f729b;
-  box-shadow: 0 4px 0 #325b7c;
-  
-  display: inline;
-  position: relative;
-  font-family: Arial;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  border-radius: 5px;
-  padding: 14px 80px;
+.Icons{
+    margin: 2%;
 }
-.sosyal > .instagram:active {
- top: 2px;
- box-shadow: 0 2px 0 #0078BD;
+
+.sosyal .Icons img{
+    top: 2px;
+    cursor: pointer;
+
 }
-.sosyal > .instagram:hover {
-  background-color: #1397D8;
+
+.sosyal .Icons img:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transform: translateY(-10px);
+    transition-duration: 0.5s;    
+}
+
+.privacy li{
+    text-align: center;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .sosyal img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .sosyal {
+        margin: 0 auto;
+        text-align: center;
+        padding: 5px;
+      }
+
 }
