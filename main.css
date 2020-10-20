@@ -219,8 +219,8 @@ header figure img{
 
 .test{
     position: fixed; /*スクロールしても画像が固定*/
-    bottom:100px;
-    left: 100px;
+    bottom:250px;
+    left: 40px;
     width: 100px;
     z-index: 1; 
 }
